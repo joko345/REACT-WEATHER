@@ -27,7 +27,7 @@ const App = () => {
       } catch (err) {
         setError('Terjadi kesalahan saat mengambil data cuaca');
       } finally {
-        setLoading(false); // Set loading false setelah fetch selesai
+        setLoading(false); // Set loading false setelah fetch selesai ss
       }
     };
 
