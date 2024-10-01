@@ -12,7 +12,7 @@ const App = () => {
     useEffect(() => {
         const fetchWeatherData = async () => {
             try {
-                const apiKey = 'apikey';
+                const apiKey = '252745be18dd8aae40838b3a48b7879c';
                 const response = await axios.get(`https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${apiKey}&units=metric`);
                 setWeatherData(response.data);
             } catch (err) {
