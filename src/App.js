@@ -84,7 +84,7 @@ const App = () => {
         {weatherData && (
           <div className="weather-info">
             <div className={`today ${isCityEmpty ? 'hidden-h1' : ''}`}>
-              <h2>Today</h2>
+              <h2>Today github joko345</h2>
               {!isCityEmpty && <h1>{city}</h1>}
               <p>
                 Temperature: {weatherData.list[0].main.temp}°C
