@@ -13,7 +13,7 @@ const App = () => {
         const fetchWeatherData = async () => {
             try {
                 const apiKey = '252745be18dd8aae40838b3a48b7879c';
-                const response = await axios.get(`https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${apiKey}&units=metric`);
+                const response = await axios.get(`API`);
                 setWeatherData(response.data);
             } catch (err) {
                 setError('Unable to fetch data. Please try again.');
